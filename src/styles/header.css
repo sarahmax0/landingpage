@@ -31,3 +31,11 @@ header {
     color: #1d1d1d;
     border-bottom: 3px solid #e9a209;
 }
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
