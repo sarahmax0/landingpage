@@ -59,3 +59,24 @@
     align-items: center;
     gap: 20px;
 }
+
+@media screen and (max-width: 1170px){
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dish {
+        width: calc(50% - 12px);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .dish {
+        width: calc(100% - 12px);
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
+    }
+}
